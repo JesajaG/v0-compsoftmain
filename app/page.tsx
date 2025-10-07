@@ -316,7 +316,6 @@ export default function App() {
             <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover z-0">
               <source src="https://ik.imagekit.io/1ejspnv0y/Compsoft.mp4?updatedAt=1758645553802" type="video/mp4" />
             </video>
-            <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-blue-900/30 to-red-900/30" />
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
